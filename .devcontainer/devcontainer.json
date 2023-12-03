@@ -1,0 +1,12 @@
+{
+	"dockerFile": "Dockerfile",
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.Go",
+				"premparihar.gotestexplorer"
+			]
+		}
+	}
+}
