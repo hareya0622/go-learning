@@ -5,8 +5,10 @@
 		"vscode": {
 			"extensions": [
 				"golang.Go",
-				"premparihar.gotestexplorer"
+				"premparihar.gotestexplorer",
+				"ionutvmi.path-autocomplete"
 			]
 		}
-	}
+	},
+	"onCreateCommand": ".devcontainer/onCreateCommand.sh"
 }
