@@ -1,0 +1,14 @@
+{
+	"dockerFile": "Dockerfile",
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.Go",
+				"premparihar.gotestexplorer",
+				"ionutvmi.path-autocomplete"
+			]
+		}
+	},
+	"onCreateCommand": ".devcontainer/onCreateCommand.sh"
+}
