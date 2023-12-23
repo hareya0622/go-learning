@@ -15,4 +15,8 @@ func main() {
 	arrayInterface := [...]int{1, 2, 3, 4, 5}
 
 	arrayIndex := [...]int{2: 1, 5: 5, 7: 13}
+
+	var slice []int
+
+	sliceLiteral := []int{1, 2, 3, 4, 5}
 }
