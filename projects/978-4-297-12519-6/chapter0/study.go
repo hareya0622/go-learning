@@ -1,29 +1,13 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
-	var empty struct{}
+	src := []int{1, 2, 3, 4}
+	fmt.Println(src, len(src), cap(src))
 
-	var point struct {
-		ID   string
-		x, y int
-	}
-
-	var array [5]int
-
-	arrayLiteral := [5]int{1, 2, 3, 4, 5}
-
-	arrayInterface := [...]int{1, 2, 3, 4, 5}
-
-	arrayIndex := [...]int{2: 1, 5: 5, 7: 13}
-
-	var slice []int
-
-	sliceLiteral := []int{1, 2, 3, 4, 5}
-
-	var m map[string]int
-
-	mapLiteral := map[string]int{
-		"John":    42,
-		"Richard": 33,
-	}
+	src = append(src, 5)
+	fmt.Println(src, len(src), cap(src))
 }
