@@ -1,13 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	src := []int{1, 2, 3, 4}
-	fmt.Println(src, len(src), cap(src))
+	sliceMake := make([]int, 2, 3) //[0 0]
 
-	src = append(src, 5)
-	fmt.Println(src, len(src), cap(src))
+	sliceIndex := []int{2: 1, 5: 5, 7: 13}
+	// [0 0 1 0 0 5 0 13]
 }
