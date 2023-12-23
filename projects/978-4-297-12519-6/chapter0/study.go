@@ -19,4 +19,11 @@ func main() {
 	var slice []int
 
 	sliceLiteral := []int{1, 2, 3, 4, 5}
+
+	var m map[string]int
+
+	mapLiteral := map[string]int{
+		"John":    42,
+		"Richard": 33,
+	}
 }
